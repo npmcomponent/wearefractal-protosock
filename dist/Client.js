@@ -9,9 +9,9 @@
 
   if (typeof window !== "undefined" && window !== null) {
     engineClient = require('engine.io');
-    EventEmitter = require('emitter');
+    EventEmitter = require('component-emitter');
   } else {
-    engineClient = require('engine.io-client');
+    engineClient = require('LearnBoost-engine.io-client');
     EventEmitter = require('events').EventEmitter;
   }
 

@@ -1,36 +1,9 @@
 {
-   "name":"protosock",
-   "description":"Framework for building network protocols",
-   "version":"0.2.4",
-   "homepage":"http://github.com/wearefractal/protosock",
-   "repository":"git://github.com/wearefractal/protosock.git",
-   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-   "main":"./index.js",
-   
-   "dependencies":{
-      "coffee-script":"*",
-      "async":"*",
-      "engine.io":"*",
-      "engine.io-client":"*",
-      "emitter-component":"*"
-   },
-   "devDependencies":{
-      "mocha":"*",
-      "should":"*",
-      "connect":"*",
-      "browserbuild":"*",
-      "uglify-js":"*"
-   },
-   "scripts":{
-      "test":"mocha --compilers coffee:coffee-script"
-   },
-   "engines":{
-      "node":">= 0.6.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/wearefractal/protosock/raw/master/LICENSE"
-      }
-   ]
+  "name": "wearefractal-protosock",
+  "version": "0.2.2",
+  "main": "dist/main.js",
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "LearnBoost-engine.io-client": "git://github.com/npmcomponent/LearnBoost-engine.io-client.git"
+  }
 }
